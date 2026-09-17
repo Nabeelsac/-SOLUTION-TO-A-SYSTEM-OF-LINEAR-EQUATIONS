@@ -27,7 +27,9 @@ B=np.array([0,10])
 C=np.linalg.solve(A,B)
 print(C)
 
+```
 ## Output:
+
 
 <img width="1450" height="922" alt="image" src="https://github.com/user-attachments/assets/9ef53d82-bb12-4ddf-95fd-f1244664f569" />
 
