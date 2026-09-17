@@ -16,24 +16,20 @@ End the program
 ## Program:
 ```
 
+#Program to find the solution for the given linear equation.
+#Developer: Nather Nabeel S A C
+#Registernumber: 212224100040    
 import os
-os.environ["OPENBLAS_NUM_THREADS"] = "1"
-
+os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
-
-A = np.array([[1, 3],
-              [2, 5]])
-
-B = np.array([5, -3])
-
-X = np.linalg.solve(A, B)
-
-print(X)
-```
+A=[[1,-3],[3,1,]]
+B=np.array([0,10])
+C=np.linalg.solve(A,B)
+print(C)
 
 ## Output:
 
-<img width="1563" height="936" alt="image" src="https://github.com/user-attachments/assets/6e30e084-6138-4fcc-b873-c7e894e7412e" />
+<img width="1450" height="922" alt="image" src="https://github.com/user-attachments/assets/9ef53d82-bb12-4ddf-95fd-f1244664f569" />
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
